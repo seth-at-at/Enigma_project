@@ -2,7 +2,6 @@ require'minitest/autorun'
 require'minitest/pride'
 require'./lib/thedate'
 require'date'
-require'pry'
 
 class Thedate < Minitest::Test
 

@@ -1,5 +1,4 @@
 require'date'
-require'pry'
 
 def todays_date
   dd = Date.today.mday.to_s

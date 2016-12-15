@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/encrypt.rb'
-require 'pry'
 
 class EncryptTest < MiniTest::Test
 

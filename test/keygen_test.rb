@@ -2,18 +2,12 @@ require'minitest'
 require'minitest/pride'
 require'./lib/thedate'
 require'date'
-require'pry'
 
 class KeygenTest < Minitest::Test
   def test_can_rotate_letter_array
     rotation.rotate(51)
     assert_equal "n", a1[0]
   end
-
-  def test_can_find_date
-    date
-  end
-
 end
 
 
